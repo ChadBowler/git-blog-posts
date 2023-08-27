@@ -1,0 +1,33 @@
+---
+title: 'Two Forms of Pre-rendering'
+date: '2023-08-26'
+tags: ['next.js', 'nextjs', 'static generation', 'server side rendering']
+---
+# Two Forms of Pre-rendering
+
+Pre-rendering is a technique for generating HTML pages on the server before they are sent to the client. This can improve performance and SEO by reducing the amount of work that the client's browser has to do.
+
+## Static Generation
+
+Static generation generates the HTML for all pages at build time. This means that the HTML for each page is generated once, and then reused on every request.
+
+Static generation is generally faster than server-side rendering, because the HTML for each page is only generated once. However, static generation can be less flexible, because it is not possible to dynamically generate content based on user input.
+
+## Server-side Rendering
+
+Server-side rendering generates the HTML for each page on demand. This means that the HTML is generated every time a page is requested.
+
+Server-side rendering is more flexible than static generation, because it is possible to dynamically generate content based on user input. However, server-side rendering can be slower than static generation, because the HTML for each page is generated every time a page is requested.
+
+## Choosing the Right Form of Pre-rendering
+
+The best form of pre-rendering for a particular application will depend on the specific needs of the application. If performance is the most important factor, then static generation is the best choice. If flexibility is the most important factor, then server-side rendering is the best choice.
+
+## Examples of When to Use Each Form of Pre-rendering
+
+* **Static generation:** Static generation is a good choice for pages that do not need to be dynamically generated. For example, static generation could be used for pages such as about pages, contact pages, and product pages.
+* **Server-side rendering:** Server-side rendering is a good choice for pages that need to be dynamically generated. For example, server-side rendering could be used for pages such as blog posts, news articles, and e-commerce pages.
+
+## Experimenting with Both Methods
+
+Ultimately, the best way to decide which form of pre-rendering to use is to experiment with both methods and see which one works best for your application.
